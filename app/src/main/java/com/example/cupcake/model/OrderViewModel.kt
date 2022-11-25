@@ -36,6 +36,7 @@ class OrderViewModel : ViewModel() {
         resetOrder()
     }
 
+
     fun setQuantity(numberCupcakes: Int) {
         _quantity.value = numberCupcakes
         updatePrice()
